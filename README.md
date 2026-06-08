@@ -30,7 +30,7 @@ nums.index(3)
 ```python
 nums = [3,5,7,6,8,6,7,8]
 nums.count(6)
-# 6
+# 2
 ```
 ### pop 
 
