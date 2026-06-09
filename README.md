@@ -130,3 +130,28 @@ locations = {
 print(locations[(6, 7)])
 # Nairobi
 ```
+## Sets
+
+```python 
+s = {1, 2, 3, 3, 3,2}
+print(s)  # {1, 2, 3} — duplicates removed automatically
+```
+###  Deduplication — removing duplicates from a list
+
+```python
+names = ["james", "john", "anna", "greg", "greg", "james", "james"]
+
+list_to_set = set(names)
+set_to_list = list(list_to_set)
+print(list_to_set)
+print(set_to_list)
+```
+### membership testing 
+
+```python
+admins = {"alice", "bob", "charlie"}
+
+if "alice" in admins:
+    print("access granted")
+
+```
